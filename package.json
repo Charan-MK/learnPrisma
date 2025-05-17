@@ -1,0 +1,24 @@
+{
+  "name": "learnprisma",
+  "version": "1.0.0",
+  "description": "prisma project",
+  "keywords": [
+    "prisma"
+  ],
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "prisma": "^6.8.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.8.2"
+  }
+}
